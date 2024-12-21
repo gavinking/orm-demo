@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.hibernate.orm:hibernate-agroal:7.0.0.Beta3" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.hibernate.orm" artifactId="hibernate-agroal" version="7.0.0.Beta3" baseVersion="7.0.0.Beta3" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate.orm/hibernate-agroal/7.0.0.Beta3/e4a2849303bb5d087d127d07303404ea7bcf3833/hibernate-agroal-7.0.0.Beta3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate.orm/hibernate-agroal/7.0.0.Beta3/4dda8004eabb1ebdc3483317d54f721832087190/hibernate-agroal-7.0.0.Beta3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
