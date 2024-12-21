@@ -1,5 +1,6 @@
 package org.hibernate.example;
 
+import org.hibernate.cfg.AgroalSettings;
 import org.hibernate.jpa.HibernatePersistenceConfiguration;
 
 import static java.lang.System.out;
@@ -12,8 +13,8 @@ public class Main {
                              // use H2 in-memory database
                              .jdbcUrl("jdbc:h2:mem:db1")
                              .jdbcCredentials("sa", "")
-                             // use Agroal connection pool
-                             .property("hibernate.agroal.maxSize", "20")
+                             // set the Agroal connection pool size
+                             .property(AgroalSettings.AGROAL_MAX_SIZE, "15")
                              // display SQL in console
                              .showSql(true, true, true)
                              .createEntityManagerFactory()) {
